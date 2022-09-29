@@ -96,6 +96,8 @@ class ListOfAzkar extends StatelessWidget {
                             backgroundColor: Colors.white,
                           ),
                           SizedBox(height:height*.02 ,),
+                          SizedBox(height: 12,),
+                          Text(" h jdj jekj ekje kje        "),
 
                         ],
                       ),
@@ -103,10 +105,11 @@ class ListOfAzkar extends StatelessWidget {
                   );
                 }
             ),
-          ):Center(child: CircularProgressIndicator(color: lightYellow,))
+
+          ):Center(child: const CircularProgressIndicator(color: lightYellow,))
 
 
       ),
     );
   }
-}
+}                                               
