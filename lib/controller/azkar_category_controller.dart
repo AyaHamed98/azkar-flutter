@@ -15,15 +15,21 @@ class AzkarController extends GetxController{
     var url = Uri.parse(
         "$baseUrl/$zekr.json");
     var response = await http.get(url);
-    getData=true;
-    var responseBody = json.decode(response.body);
-    for (var i in responseBody["content"]) {
-      azkarList.add(Model.fromJson(i));
-      update();
-    }
+   try {
+     if(response.statusCode==200){
+       getData=true;
+       var responseBody = json.decode(response.body);
+       for (var i in responseBody["content"]) {
+         azkarList.add(Model.fromJson(i));
+         update();
+       }
+     }
+   }catch(e){
+     print(e);
+   }
+   }
   }
 
 
 
 
-}
