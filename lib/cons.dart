@@ -1,7 +1,6 @@
-
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
+
+const String baseUrl="https://ahegazy.github.io/muslimKit/json";
 
 const Color green=Color(0xffbea147);
 const Color lightYellow=Color(0xffffec58);

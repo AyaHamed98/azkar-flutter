@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:azkar/cons.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart'as http;
 
@@ -12,7 +13,7 @@ class AzkarController extends GetxController{
     getData=false;
     azkarList.clear();
     var url = Uri.parse(
-        "https://ahegazy.github.io/muslimKit/json/$zekr.json");
+        "$baseUrl/$zekr.json");
     var response = await http.get(url);
     getData=true;
     var responseBody = json.decode(response.body);
@@ -20,8 +21,6 @@ class AzkarController extends GetxController{
       azkarList.add(Model.fromJson(i));
       update();
     }
-
-    print(azkarList[0].zekr);
   }
 
 

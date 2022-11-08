@@ -13,6 +13,7 @@ class TasbehController extends GetxController{
     }
     update();
   }
+
   void changeHamdNumber(){
     if(hamdCounter<33){
       hamdCounter++;
@@ -21,6 +22,7 @@ class TasbehController extends GetxController{
     }
     update();
   }
+
   void changeTakbeerNumber(){
     if(takbeerCounter<33){
       takbeerCounter++;

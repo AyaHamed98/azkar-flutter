@@ -1,11 +1,10 @@
 import 'package:azkar/binding/binding.dart';
 import 'package:azkar/view/homeScreen.dart';
-import 'package:azkar/view/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: HomeScreen(),
       initialBinding: Binding(),
     );
   }
