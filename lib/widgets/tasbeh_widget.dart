@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
-import '../cons.dart';
+import '../constants.dart';
 import 'custom_text.dart';
 
 class TasbehWidget extends StatelessWidget {

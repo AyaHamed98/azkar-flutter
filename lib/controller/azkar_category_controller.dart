@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:azkar/cons.dart';
+import 'package:azkar/constants.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart'as http;
 

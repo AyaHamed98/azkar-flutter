@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../cons.dart';
+import '../constants.dart';
 import 'custom_text.dart';
 
 class AzkarCategory extends StatelessWidget {

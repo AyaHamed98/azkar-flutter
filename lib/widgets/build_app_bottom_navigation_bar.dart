@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../cons.dart';
+import '../constants.dart';
 import '../controller/home_controller.dart';
 import 'custom_text.dart';
 

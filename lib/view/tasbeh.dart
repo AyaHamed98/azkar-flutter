@@ -1,5 +1,5 @@
-import 'package:azkar/cons.dart';
-import 'package:azkar/controller/tabeh_controller.dart';
+import 'package:azkar/constants.dart';
+import 'package:azkar/controller/tasbeh_controller.dart';
 import 'package:azkar/widgets/custom_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

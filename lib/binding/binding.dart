@@ -2,7 +2,7 @@ import 'package:azkar/controller/azkar_category_controller.dart';
 import 'package:azkar/controller/home_controller.dart';
 import 'package:get/instance_manager.dart';
 
-import '../controller/tabeh_controller.dart';
+import '../controller/tasbeh_controller.dart';
 
 class Binding extends Bindings{
   @override

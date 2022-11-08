@@ -1,4 +1,4 @@
-import 'package:azkar/cons.dart';
+import 'package:azkar/constants.dart';
 import 'package:azkar/controller/azkar_category_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
